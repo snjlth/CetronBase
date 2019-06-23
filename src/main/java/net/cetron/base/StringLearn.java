@@ -12,6 +12,8 @@ public class StringLearn {
 
         testStringTokenizer();
 
+        //分割字符串，StringTokenizer的效率要高于Split方法，优先使用StringTokenizer
+        //如果有条件，能直接使用indexof更好，但是要注意使用的其他方法，在本测试中，使用到了substring方法，这个方法性能很慢
     }
 
     private static void testStringTokenizer(){
