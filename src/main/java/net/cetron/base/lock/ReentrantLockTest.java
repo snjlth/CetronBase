@@ -1,4 +1,4 @@
-package net.cetron.base.Lock;
+package net.cetron.base.lock;
 
 import java.util.concurrent.locks.ReentrantLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;

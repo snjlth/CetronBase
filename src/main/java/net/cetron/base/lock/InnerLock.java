@@ -1,8 +1,7 @@
-package net.cetron.base.Lock;
+package net.cetron.base.lock;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.Callable;
 
 public class InnerLock implements Runnable {
 
